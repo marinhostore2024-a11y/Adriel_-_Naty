@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adriel & Naty ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Ícones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- FUNDO -->
+    <div class="background"></div>
+
+    <!-- CONTEÚDO -->
+    <main class="container">
+
+        <header>
+            <p class="small-title">NOSSA HISTÓRIA</p>
+            <h1>Adriel <span>♥</span> Naty</h1>
+            <p class="subtitle">Uma história que ainda está sendo escrita...</p>
+        </header>
+
+
+        <!-- PLAYER -->
+        <section class="player">
+
+            <div class="album">
+
+                <!-- Troque pela foto de vocês -->
+                <img src="capa.jpeg" alt="Capa da nossa música">
+
+            </div>
+
+            <div class="song-info">
+                <h2>Amanhecer</h2>
+                <p>Uma música para nós dois</p>
+            </div>
+
+            <div class="progress-area">
+
+                <span id="currentTime">0:00</span>
+
+                <input type="range"
+                    id="progress"
+                    value="0"
+                    min="0"
+                    step="0.1">
+
+                <span id="duration">0:00</span>
+
+            </div>
+
+            <div class="controls">
+
+                <button class="control">
+                    <i class="fa-solid fa-shuffle"></i>
+                </button>
+
+                <button class="control">
+                    <i class="fa-solid fa-backward-step"></i>
+                </button>
+
+                <button class="play-button" id="playButton">
+                    <i class="fa-solid fa-play"></i>
+                </button>
+
+                <button class="control">
+                    <i class="fa-solid fa-forward-step"></i>
+                </button>
+
+                <button class="control">
+                    <i class="fa-solid fa-repeat"></i>
+                </button>
+
+            </div>
+
+            <audio id="audio" src="musica.mp3"></audio>
+
+        </section>
+
+
+        <!-- CONTADOR -->
+        <section class="counter-section">
+
+            <p class="section-label">ESTAMOS JUNTOS HÁ</p>
+
+            <h2>Nosso tempo ❤️</h2>
+
+            <div class="counter">
+
+                <div class="time-box">
+                    <strong id="years">0</strong>
+                    <span>Anos</span>
+                </div>
+
+                <div class="time-box">
+                    <strong id="months">0</strong>
+                    <span>Meses</span>
+                </div>
+
+                <div class="time-box">
+                    <strong id="days">0</strong>
+                    <span>Dias</span>
+                </div>
+
+                <div class="time-box">
+                    <strong id="hours">0</strong>
+                    <span>Horas</span>
+                </div>
+
+                <div class="time-box">
+                    <strong id="minutes">0</strong>
+                    <span>Minutos</span>
+                </div>
+
+                <div class="time-box">
+                    <strong id="seconds">0</strong>
+                    <span>Segundos</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENSAGEM -->
+        <section class="message">
+
+            <p class="section-label">PARA VOCÊ</p>
+
+            <h2>Uma mensagem especial 💌</h2>
+
+            <p>
+                Desde que você entrou na minha vida, meus dias ficaram
+                mais especiais. Cada momento ao seu lado se tornou uma
+                lembrança que eu quero guardar para sempre.
+            </p>
+
+            <p>
+                Obrigado por estar comigo, por cada sorriso, cada conversa
+                e cada momento que vivemos juntos.
+            </p>
+
+            <p class="final-message">
+                Que essa seja apenas uma pequena parte da nossa história. ❤️
+            </p>
+
+        </section>
+
+
+        <!-- RODAPÉ -->
+        <footer>
+            Feito com ❤️ para nós dois.
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
